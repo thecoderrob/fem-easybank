@@ -125,18 +125,23 @@ function App() {
 
             <div className="flex" style={{ "--flex-gap": "1rem" }}>
               <a href="#facebook">
+                <span className="sr-only">Facebook</span>
                 <i className="fa-brands fa-square-facebook socials__icon"></i>
               </a>
               <a href="#youtube">
+                <span className="sr-only">Youtube</span>
                 <i className="fa-brands fa-youtube socials__icon"></i>
               </a>
               <a href="#twitter">
+                <span className="sr-only">Twitter</span>
                 <i className="fa-brands fa-twitter socials__icon"></i>
               </a>
               <a href="#pinterest">
+                <span className="sr-only">Pinterest</span>
                 <i className="fa-brands fa-pinterest socials__icon"></i>
               </a>
               <a href="#instagram">
+                <span className="sr-only">Instagram</span>
                 <i className="fa-brands fa-instagram socials__icon"></i>
               </a>
             </div>
