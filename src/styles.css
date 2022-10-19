@@ -396,12 +396,12 @@ button {
 }
 
 .article__title:hover {
-  background: linear-gradient(
-    45deg,
+  background: -webkit-linear-gradient(
     var(--clr-accent-400),
     var(--clr-accent-300)
   );
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -453,8 +453,12 @@ footer {
 }
 
 .footer__link:hover {
-  background: linear-gradient(var(--clr-accent-400), var(--clr-accent-300));
+  background: -webkit-linear-gradient(
+    var(--clr-accent-400),
+    var(--clr-accent-300)
+  );
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -549,7 +553,11 @@ footer {
 }
 
 .socials__icon:hover {
-  background: linear-gradient(var(--clr-accent-400), var(--clr-accent-300));
+  background: -webkit-linear-gradient(
+    var(--clr-accent-400),
+    var(--clr-accent-300)
+  );
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
