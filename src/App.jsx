@@ -32,27 +32,27 @@ function App() {
           <nav className="primary-nav">
             <ul className="primary-nav__list | flex">
               <li className="primary-nav__item">
-                <a href="#" className="primary-nav__link">
+                <a href="#home" className="primary-nav__link">
                   Home
                 </a>
               </li>
               <li className="primary-nav__item">
-                <a href="#" className="primary-nav__link">
+                <a href="#about" className="primary-nav__link">
                   About
                 </a>
               </li>
               <li className="primary-nav__item">
-                <a href="#" className="primary-nav__link">
+                <a href="#contact" className="primary-nav__link">
                   Contact
                 </a>
               </li>
               <li className="primary-nav__item">
-                <a href="#" className="primary-nav__link">
+                <a href="#blog" className="primary-nav__link">
                   Blog
                 </a>
               </li>
               <li className="primary-nav__item">
-                <a href="#" className="primary-nav__link">
+                <a href="#careers" className="primary-nav__link">
                   Careers
                 </a>
               </li>
@@ -67,7 +67,7 @@ function App() {
         <section className="section__hero | section--light">
           <div className="grid-container--hero | grid-container">
             <div className="hero__image">
-              <img src={mockups} alt="" />
+              <img src={mockups} alt="Cellphones showing Easybank app" />
             </div>
             <div className="hero__content flow">
               <h1 className="fs-900 text-primary-400">
@@ -120,23 +120,23 @@ function App() {
         <div className="grid-container--footer | grid-container">
           <div className="footer__socials | flex">
             <div>
-              <img src={logoDark} alt="" />
+              <img src={logoDark} alt="Site logo" />
             </div>
 
             <div className="flex" style={{ "--flex-gap": "1rem" }}>
-              <a href="#">
+              <a href="#facebook">
                 <i className="fa-brands fa-square-facebook socials__icon"></i>
               </a>
-              <a href="#">
+              <a href="#youtube">
                 <i className="fa-brands fa-youtube socials__icon"></i>
               </a>
-              <a href="#">
+              <a href="#twitter">
                 <i className="fa-brands fa-twitter socials__icon"></i>
               </a>
-              <a href="#">
+              <a href="#pinterest">
                 <i className="fa-brands fa-pinterest socials__icon"></i>
               </a>
-              <a href="#">
+              <a href="#instagram">
                 <i className="fa-brands fa-instagram socials__icon"></i>
               </a>
             </div>
@@ -145,34 +145,34 @@ function App() {
           <nav className="footer__nav | flex">
             <ul className="footer__list-1 | flow">
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="#about-us" className="footer__link">
                   About Us
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="#contact" className="footer__link">
                   Contact
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="#blog" className="footer__link">
                   Blog
                 </a>
               </li>
             </ul>
             <ul className="footer__list-2 | flow">
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="#careers" className="footer__link">
                   Careers
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="#support" className="footer__link">
                   Support
                 </a>
               </li>
               <li className="footer__item">
-                <a href="#" className="footer__link">
+                <a href="#privacy-policy" className="footer__link">
                   Privacy Policy
                 </a>
               </li>
